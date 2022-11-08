@@ -60,6 +60,7 @@ class HomeScreen(QMainWindow):
         self.addManagePage()
 
         self.vertical_4=QVBoxLayout()
+        self.vertical_4.setContentsMargins(0,0,0,0)
         self.addHistoryPage()
 
 
